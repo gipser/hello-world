@@ -1,9 +1,20 @@
 // MyHelloWorld.cpp : This file contains the 'main' function. Program execution begins and ends there.
 #include <iostream>
 
+int multiply(int a, int b)
+{
+    return a*b;
+}
+
 int main()
 {
+    int c;
+
     std::cout << "hello world" << std::endl;
+
+    c = multiply(2, 6);
+
+    std::cout << "a * b = " << c << std::endl;
 
     return 0;
 }
