@@ -11,8 +11,9 @@ int main()
 // Change to your repository folder where your program files are located.
 // Note: I used location: "D:\repos_mine\hello-world\JuergenGipser"
 // Open Windows console in your repository folder: "cmd"
-// Run "code ." in the Windows console command prompt
-// Open Terminal in VSCode menu: View=>Terminal
+// Run "code ." in the Windows console command prompt.
+// Open Terminal in VSCode menu: View=>Terminal.
+// Add the path "C:/cip_tools/mingw/20200319/bin" to the environment variable "path" on your Windows system.
 // Run command "g++ .\helloWorld.cpp -o  helloWorld.exe" or
 //             "g++ .\*.cpp -o  helloWorld.exe" in case you have more modules to compile and link.
 // Find more info on: https://code.visualstudio.com/docs/cpp/config-mingw
