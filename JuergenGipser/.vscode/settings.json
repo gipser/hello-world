@@ -36,5 +36,6 @@
         "xtr1common": "cpp",
         "xutility": "cpp"
     },
-    "C_Cpp.default.compilerPath": "C:\\cip_tools\\mingw\\20200319\\bin\\gcc.exe"
+    "C_Cpp.default.compilerPath": "C:\\cip_tools\\mingw\\20200319\\bin\\gcc.exe",
+    "C_Cpp.errorSquiggles": "enabled"
 }
