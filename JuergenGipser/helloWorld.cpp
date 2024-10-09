@@ -1,4 +1,4 @@
-// MyHelloWorld.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// helloWorld.cpp : This file contains the 'main' function. Program execution begins and ends there.
 #include <iostream>
 
 int multiply(int a, int b)
@@ -19,15 +19,22 @@ int main()
     return 0;
 }
 
-// Change to your repository folder where your program files are located.
-// Note: I used location: "D:\repos_mine\hello-world\JuergenGipser"
-// Open Windows console in your repository folder: "cmd"
-// Run "code ." in the Windows console command prompt.
-// Open Terminal in VSCode menu: View=>Terminal.
-// Add the path "C:/cip_tools/mingw/20200319/bin" to the environment variable "path" on your Windows system.
-// Run command "g++ .\helloWorld.cpp -o  helloWorld.exe" or
-//             "g++ .\*.cpp -o  helloWorld.exe" in case you have more modules to compile and link.
-// Find more info on: https://code.visualstudio.com/docs/cpp/config-mingw
-// Not working yet:
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+// 1. PREPARATION STEPS
+//   Get "mingw" compiler zip-archive.
+//   Create under drive c: the directory "cip_tools" and extract the "mingw" compiler zip-archive into it.
+//   Add the path "C:/cip_tools/mingw/20200319/bin" to the environment variable "Path" on your Windows system.
+//   Change to your repository folder where your program files are located.
+//   Note: I used e.g. location: "D:\repos_mine\hello-world\JuergenGipser"
+//   Open Windows console in your repository folder: "cmd"
+//   Run "code ." in the Windows console command prompt.
+//   Install following VSCode extensions: "C/C++" and "C/C++ Extension Pack"
+
+// 2. COMPILING helloWorld.cpp and RUNNING helloWorld.exe:
+//   Open Terminal in VSCode menu: View=>Terminal.
+//   Open "helloWorld.cpp" and press the "Debug/Play button" and select "Run C/C++ File"
+//   OR
+//   Open "helloWorld.cpp" and press the "Debug/Play button" and select "Debug C/C++ File"
+//   OR
+//   Run command "g++ .\helloWorld.cpp -o  helloWorld.exe" or
+//               "g++ .\*.cpp -o  helloWorld.exe" in case you have more modules to compile and link.
+//   Find more info on: https://code.visualstudio.com/docs/cpp/config-mingw
