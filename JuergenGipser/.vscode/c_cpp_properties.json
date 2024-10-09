@@ -14,7 +14,8 @@
             "windowsSdkVersion": "10.0.17763.0",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "C:/cip_tools/mingw/20200319/bin/g++.exe"
         }
     ],
     "version": 4
